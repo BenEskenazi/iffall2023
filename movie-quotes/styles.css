@@ -1,0 +1,63 @@
+p{
+    color: black;
+    font-size: 20px;
+    text-indent: 5%;
+
+}
+p.venkman{
+   color: rgb(127, 18, 18); 
+   line-height: 10%;
+   font-weight: bold;
+
+}
+p.barrett{
+    color: rgb(14, 14, 109); 
+    line-height: 10%;
+    font-weight: bold;
+}
+p.stantz{
+    color: rgb(102, 16, 102); 
+    line-height: 10%;
+    font-weight: bold;
+
+
+}
+p.zeddemore{
+    color: rgb(22, 96, 22); 
+    line-height: 10%;
+    font-weight: bold;
+
+
+}
+p.mayor{
+    color: rgb(21, 108, 108); 
+    line-height: 10%;
+    font-weight: bold;
+
+
+}
+p.spengler{
+    color: rgb(154, 88, 13); 
+    line-height: 10%;
+    font-weight: bold;
+
+}
+p.notes{
+    font-style: italic
+}
+
+h2{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+h1{
+    color: rgb(47, 75, 5);
+    font-size: 50px;
+    font-weight: bold;
+    border-style: dotted;
+
+
+}
+
