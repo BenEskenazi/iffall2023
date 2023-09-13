@@ -1,0 +1,60 @@
+p{
+    color: black;
+    font-size: 20px;
+}
+p.verse{
+   color: rgb(192, 56, 56); 
+   line-height: 10%;
+   font-weight: bold;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+}
+p.lyric{
+   color: rgb(99, 46, 46); 
+   line-height: 10%;
+   font-weight: bold;
+   text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p.instrumental{
+    color: rgb(99, 46, 46); 
+    line-height: 10%;
+    font-weight: bold;
+    font-style:italic;
+    text-align: center;
+ }
+
+
+h1{
+    color: rgb(42, 6, 15);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    color: rgb(42, 6, 15);
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h3{
+    color: rgb(42, 6, 15);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18%;
+  }
