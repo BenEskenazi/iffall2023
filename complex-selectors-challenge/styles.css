@@ -1,0 +1,181 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Raleway:300,400,700';
+
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body>section {
+	position: fixed;
+	top: 0;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 3rem;
+	overflow-y: auto;
+    line-height: 1.6;
+}
+
+body>section.challenges {
+	left:0;
+	width: 30%;
+}
+body>section.content {
+	left:30%;
+	width: 70%;
+}
+
+h1 {
+	margin-top: 0;
+    font-size: 2.5em;
+}
+
+ul {
+	margin:0;
+	padding-left:0;
+}
+
+li {
+	display: block;
+}
+
+.cast>ul {
+	font-size: 0;
+	margin: -10px;
+	padding: 0;
+    
+    
+}
+
+.cast li {
+	font-size: 1rem;
+	vertical-align: top;
+	padding: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+    
+}
+
+
+.cast li>a {
+	display: block;
+	/*border: 1px solid #ddd;
+	padding: 10px;*/
+	color: black;
+	text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.cast ul li a div:first-child {
+    font-weight: bold; /*this is not showing, i do not know know why considering the italic one works below*/
+  }
+
+.cast ul li a div:last-child {
+    font-style: italic;
+  }
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Raleway", sans-serif;
+    font-weight: lighter;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 2rem 0 0.5rem 0;
+
+}
+
+.seasons li {
+	display: inline-block;
+}
+
+section.challenges {
+	font-size: 12px;
+	background-color: #eee;
+}
+
+section.challenges h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2em;
+}
+
+section.challenges ol {
+	padding-left: 1rem;
+}
+
+section.challenges li {
+	display: list-item;
+	margin: 1em 0;
+}
+
+.see-all {
+	text-decoration: none;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+
+header{
+    margin-bottom: 3rem;
+}
+
+header nav ul {
+	font-size: 0;
+}
+
+header nav li {
+	font-size: 1rem;
+	display: inline-block;
+	vertical-align: top;
+}
+
+header nav a {
+	display: block;
+	text-decoration: none;
+}
+
+header nav li + li  {
+	padding-left:1rem;
+	margin-left:1rem;
+}
+
+p {
+	margin: 0.5rem 0;
+}
+
+code {
+	color: green;
+}
+
+
+#unbreakable-kimmy-schmidt {
+	margin-top: 4rem;
+	padding-top: 2rem;
+}
+
+.shows>li {
+	padding-top:2rem;
+    border-top: 1px solid #000000;
+}
+
+.selected {
+    font-weight: bold;
+    color: black; /*this is not showing, i do not know know why*/
+}
+
+img {
+    width: 100%;
+    height: auto; 
+  }
+
+.cast ul li {
+    width: 25%;
+  }
+#game-of-thrones .seasons ul li:last-child:after {
+    content: "*";
+    
+  }
+#game-of-thrones .seasons ul:last-child:after {
+    content: "* Final Season";
+    font-size: 0.7rem;
+    color: #999;
+    
+  }
