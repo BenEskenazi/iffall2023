@@ -1,0 +1,51 @@
+html {
+    color: rgb(91, 90, 90);
+    font-family: 'Raleway', serif;
+    font-size: 15pt;
+    background-color: rgb(238, 239, 248);
+}
+body{
+    margin: 15%;
+}
+
+h1 {
+    color: rgb(23, 5, 62);
+    text-transform: uppercase;
+    text-indent: -2rem;
+}
+
+h2 {
+    color: rgb(19, 51, 125);
+    text-transform: capitalize;
+    text-indent: -2rem;
+    
+}
+
+h3 {
+    color: rgb(44, 89, 153);
+    text-transform: capitalize;
+    text-indent: -.50rem;
+
+}
+
+p{
+    font-size: 13pt;
+    line-height: 1.6;
+}
+
+section{
+    margin: 2.5em 0;
+}
+ul{
+    font-size: 13pt;
+    line-height: 1.8;
+}
+
+
+
+
+
+
+
+
+
