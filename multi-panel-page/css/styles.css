@@ -1,0 +1,123 @@
+html{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+header{
+    background-image: url(../img/mountian.jpeg.avif);
+    background-position: top center;
+    background-size: cover;
+    text-align: center;
+}
+section{
+    background-color: rgb(160, 174, 205);
+}
+h1, h2, h3, p{
+    margin: 0;
+}
+h1{
+    font-size: 80px;
+    color: azure;
+}
+h2{
+    font-size: 30px;
+    line-height: 1.1;
+    color: azure;
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;   
+    padding-bottom: 31px; 
+}
+
+h4{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.column_container{
+    width: 960px;
+    margin: auto; 
+    /*background-color: rgba(118, 118, 130, 0.2);*/
+}
+header .column_container{
+    padding-top: 152px;
+    padding-bottom: 188px;
+}
+section .column_container{
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+}
+img.large_photo {
+    height: 300px;
+    width: 400px;
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 34px;
+}
+p{
+    line-height: 1.4;
+    font-size: 18px;
+    margin-bottom: 16px;
+    
+}
+.using-flex{
+    display: flex;
+    flex-wrap: wrap; 
+}
+.grid li{
+    width: 50%;
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 16px;
+    
+}
+.grid li img{
+    width: 200px;
+    height: 150px;    
+    padding-bottom: 9px;
+    
+}
+.grid{
+    padding: 0;
+    list-style: none;
+    padding-top: 0px;
+
+}
+img.small_photo{
+
+    float: left;
+    margin-right: 13px;
+}
+.image_text{
+    text-align: left;  
+    margin-right: 22px;
+}
+.bottom_text{
+    font-size: 26px;
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.flex-container{
+    display: flex; 
+}
+.shrink{
+    padding-bottom: 15px;
+}
+.middle_text{
+    background-color: rgb(244, 238, 241);
+    padding-bottom: 99px;
+}
+.last_section{
+    background-color:  rgb(127, 148, 205);
+}
+.footer{
+}
+.last_section .column_container {
+    margin-top: -116px;
+    padding-bottom: 85px;
+}
