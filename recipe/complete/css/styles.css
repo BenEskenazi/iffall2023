@@ -1,0 +1,141 @@
+html {
+    color: rgb(66, 57, 50);
+    font-family: 'Raleway', serif;
+    font-size: 15pt;
+    background-color: bisque;
+}
+body{
+    max-width: 700px;
+    width: 90%;
+    margin: auto; 
+}
+header{
+    background-image: url(../img/cookie42.jpg);
+    background-position: top center;
+    background-size: cover;
+    text-align: center;
+    padding: 80px;
+}
+h1 {
+    color: rgb(255, 251, 248);
+    text-transform: uppercase;
+    text-indent: 1rem;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(125, 72, 19);
+    text-transform: capitalize;
+    text-indent: 1rem;  
+}
+
+h3 {
+    color: rgb(157, 91, 65);
+    text-transform: capitalize;
+}
+
+p{
+    font-size: 13pt;
+    line-height: 1.6;
+}
+
+section{
+    margin: 2.5em 0;
+}
+
+.ingredient-grid {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.ingredient-grid-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.ingredient-grid-item img {
+    width: 212px;
+    height: 150px; 
+}
+
+.ingredient-grid-item p {
+    margin: 10px 0;
+}
+
+.ingredients{
+    background-color:  rgb(233, 196, 151);
+}
+
+@media screen and (max-width: 800px) {
+    .ingredient-grid {
+      max-width: 100%;
+      flex-direction: column;
+    }
+}
+
+.info{
+    background-color: bisque;
+    padding: 2%;
+}
+
+.item2 { 
+    grid-area: menu; 
+}
+.item3 { 
+    grid-area: main; 
+}
+.item4 { 
+    grid-area: right; 
+}
+.item5 { 
+    grid-area: footer; 
+}
+
+.top-grid-container {
+    display: grid;
+    grid-template-areas:
+      'menu main main main right right'
+      'menu footer footer footer footer footer';
+    gap: 15px;
+    background-color: rgb(233, 196, 151);
+    padding: 10px;
+}
+
+@media screen and (max-width: 750px){
+    .top-grid-container{
+        grid-template-areas:
+        'menu'
+        'main'
+        'right'
+        'footer';  
+    }
+}
+
+.top-grid-container > div {
+    background-color: bisque;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.instructions-image {
+    width: 100%;
+}
+
+@media screen and (min-width: 600px){
+    .instructions-image{
+        height: 200px;
+        width: auto;
+        float: right;
+        padding-left: 15px;
+    }
+}
+
+.end_notes{
+    background-color: rgb(233, 196, 151);
+    padding: 30px;
+    padding-top: 10px;
+
+}
