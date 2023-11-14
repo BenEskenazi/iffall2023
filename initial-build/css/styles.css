@@ -1,0 +1,237 @@
+html {
+    color: rgb(66, 57, 50);
+    font-size: 15pt;
+    background-color: rgba(197, 206, 141, .2);
+    font-family: "freight-sans-pro", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+}
+body{
+    max-width: 1000px;
+    width: 90%;
+    margin: auto; 
+}
+header{
+    background-image: url(../img/final\ type\ poster\ background.jpg);
+    background-position: top center;
+    background-size: cover;
+    padding: auto;
+    background-position: top center;
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 251, 248);
+    text-transform: uppercase;
+    text-indent: 1rem;
+    text-align: center;
+    font-family: "freight-big-pro", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.title_image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h2 {
+    color: rgb(39, 43, 45);
+    text-transform: capitalize;
+}
+
+h3 {
+    color: rgb(20, 21, 21);
+    text-transform: capitalize;
+}
+h4 {
+    color: rgb(157, 93, 65);
+    text-transform: capitalize;
+    font-size: 15pt;
+    text-align: left;
+    
+}
+
+p{
+    font-size: 13pt;
+    line-height: 1.6;
+    text-align: left;
+}
+
+section{
+    margin: 2.5em 0;
+}
+
+
+
+
+
+.column_container{
+    margin: auto; 
+}
+header .column_container{
+    padding: 10px;
+}
+section .column_container{
+    padding: 10px;
+}
+p{
+    line-height: 1.4;
+    font-size: 18px;
+    margin-bottom: 16px; 
+}
+.using-flex{
+    display: flex;
+    flex-wrap: wrap; 
+}
+.grid li{
+    width: 50%;
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 16px;
+    
+}
+.grid li img{
+    width: 200px;
+    height: 150px;        
+}
+.grid{
+    padding: 0;
+    list-style: none;
+    padding-top: 0px;
+
+}
+img.small_photo{
+    width: 200px;
+    float: left;
+    margin-right: 13px;
+}
+.image_text{
+    text-align: left;  
+    margin-right: 22px;
+}
+.bottom_text{
+    font-size: 26px;
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.flex-container{
+    display: flex; 
+}
+
+
+
+/************ Nav Bar *******/
+.nav ul{
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.nav li{
+  float: left;
+  list-style-type: none;
+}
+
+.nav li a{
+  display: block;
+  color:  #111;
+  background-color: #768477;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: #111;
+  color: #768477;
+}
+
+
+
+
+/****
+
+Old ideas and misc
+
+******** Image Grid *******
+.using-grid{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.using-grid li{
+    width: 100%;
+}
+.grid{
+    padding: 0;
+}
+.grid li{
+    width: 25%;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    display: flex;
+}
+.grid li img {
+    width: 90%;
+}
+.grid img{
+    width: 150px;
+}
+
+
+********** Image Grid **********
+
+img.large_photo {
+    height: 300px;
+    width: 400px;
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 34px;
+}
+.using-flex{
+    display: flex;
+    flex-wrap: wrap; 
+}
+.grid li{
+    width: 50%;
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 16px;   
+}
+.grid li img{
+    width: 200px;
+    height: 150px;    
+    padding-bottom: 9px;
+}
+.grid{
+    padding: 0;
+    list-style: none;
+    padding-top: 0px;
+}
+img.small_photo{
+    float: right;
+    margin-right: 13px;
+}
+
+.image_text{
+    text-align: left;  
+    margin-right: 22px;
+}
+.flex-container{
+    display: flex; 
+}
+
+.last_section .column_container {
+    margin-top: -116px;
+    padding-bottom: 85px;
+}
+
+
+
+
+
+**/
