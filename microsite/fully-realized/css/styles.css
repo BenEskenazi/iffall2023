@@ -1,0 +1,273 @@
+html {
+    color:  #111;
+    font-size: 15pt;
+    background-color: rgba(197, 206, 141, .2);
+    font-family: "freight-sans-pro", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+}
+body{
+    max-width: 1000px;
+    width: 90%;
+    margin: auto; 
+}
+header{
+    background-image: url(../img/final\ type\ poster\ background.jpg);
+    background-position: top center;
+    background-size: cover;
+    padding: auto;
+    background-position: top center;
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 251, 248);
+    text-transform: uppercase;
+    text-indent: 1rem;
+    text-align: center;
+    font-family: "freight-big-pro", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-style: bold;
+
+}
+
+.home_image{
+    display: block;
+    width: 100%;
+}
+
+.home_image_link {
+    display: block;
+    background-image: url(../img/final\ type\ poster\ background.jpg);
+    text-decoration: none; 
+}
+
+.title_image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+h2 {
+    color: rgb(39, 43, 45);
+    text-transform: capitalize;
+    font-family: "freight-big-pro", serif;
+    font-size: 30pt;
+}
+
+h3 {
+    color: rgb(20, 21, 21);
+    text-transform: capitalize;
+    font-family: "freight-big-pro-black", serif;
+    font-size: 20pt;
+}
+
+h4 {
+    color: rgb(157, 93, 65);
+    text-transform: capitalize;
+    font-size: 18pt;
+    text-align: left;
+    font-family: "freight-big-pro", serif;
+    font-style: italic;
+}
+
+p{
+    font-size: 13pt;
+    line-height: 1.6;
+    text-align: left;
+}
+
+section{
+    margin: 2.5em 0;
+}
+
+
+/************ Title Colors *******/
+
+.color-arabic {
+    color: #78826c;
+}
+
+.color-copic {
+    color: #265763;
+}
+
+.color-demotic {
+    color: #681e27;
+}
+
+.color-hieratic {
+    color: #8e3f35;
+}
+
+.color-hieroglyphs {
+    color: #a0754a;
+}
+
+
+/************ Explore More Section  *******/
+
+
+.column_container{
+    margin: auto; 
+}
+
+header .column_container{
+    padding: 10px;
+}
+section .column_container{
+    padding: 10px;
+}
+p{
+    line-height: 1.4;
+    font-size: 18px;
+    margin-bottom: 16px; 
+}
+.using-flex{
+    display: flex;
+    flex-wrap: wrap; 
+}
+.grid li{
+    width: 50%;
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+.grid li img{
+    width: 200px;
+    height: 150px;        
+}
+.grid{
+    padding: 0;
+    list-style: none;
+    padding-top: 0px;
+}
+img.small_photo{
+    width: 200px;
+    float: left;
+    margin-right: 13px;
+}
+.image_text{
+    text-align: left;  
+    margin-right: 22px;
+}
+.bottom_text{
+    font-size: 26px;
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.flex-container{
+    display: flex; 
+}
+
+
+@media (max-width: 850px) {
+    .using-flex {
+        flex-direction: column;
+        width: 100%;
+    }
+    .grid li {
+        width: 100%;
+        text-align: left;
+    }
+
+    img.small_photo {
+        width: 100%; 
+        float: none; 
+        margin-right: 30; 
+        margin-bottom: 10px; 
+    }
+    .image_text {
+        margin-right: 0; 
+    }
+}
+
+/************ Home Page Grid *******/
+
+.flex-container2{
+    display: flex; 
+}
+.column_container2{
+    margin: auto; 
+}
+.using-flex2 {
+    flex-direction: column;
+    width: 100%;
+}
+.grid2{
+    padding: 0;
+    list-style: none;
+    padding-top: 0px;
+}
+.grid2 li img{
+    width: 200px;
+    height: 150px;        
+}
+img.small_photo2 {
+    width: 100%; 
+    float: none; 
+    margin-right: 0; 
+    margin-bottom: 10px; 
+}
+.image_text2 {
+    margin-right: 0; 
+}
+
+@media (max-width: 750px) {
+        .flex-container2 {
+        flex-direction: column;
+    }
+    .grid2 li img {
+        width: 100%;
+        height: auto; 
+    }
+    .home_image{
+        display: block;
+        width: 100%;
+        border: 10px;
+    }
+}
+
+/************ Nav Bar *******/
+.nav ul{
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.nav li{
+  float: left;
+  list-style-type: none;
+  text-align: center;
+  width: auto;
+}
+
+.nav li a{
+  display: block;
+  color:  #111;
+  background-color: #768477;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: .25s;
+
+}
+
+.nav li a:hover {
+  background-color: #111;
+  color: #768477;
+}
+
+@media (max-width: 750px) {
+    .nav li {
+        width: 33%; 
+    }
+}
+/************ if you are here smile and give yourself a pat on the back, you finished!! *******/
+
+
+
+
